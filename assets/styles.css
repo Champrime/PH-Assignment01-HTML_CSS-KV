@@ -204,3 +204,110 @@ header h1 {
   color: #6b7280;
   line-height: 1.5;
 }
+
+.solution {
+  padding: 80px 120px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  background-color: white;
+}
+
+.solutionImg {
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.solutionLabel {
+  font-size: 14px;
+  font-weight: 600;
+  color: #469165;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.solutionContent h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #1a202c;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.solutionDesc {
+  font-size: 16px;
+  color: #6b7280;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  max-width: 520px;
+  margin-bottom: 45px;
+}
+
+.solutionFeatures {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.solutionFeatures li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  color: #1a202c;
+  margin-bottom: 16px;
+}
+
+.cta {
+  padding: 80px 40px;
+  text-align: center;
+  background-color: #F7F6F2;
+  border-radius: 12px;
+  margin: 120px;
+  ;
+}
+
+.cta h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 16px;
+}
+
+.cta p {
+  font-size: 16px;
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.ctaBtn {
+  background-color: #469165;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 28px;
+  border-radius: 8px;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.ctaBtn:hover {
+  background-color: #30B868;
+}
+
+.ctaNote {
+  display: block;
+  font-size: 14px;
+  color: #6b7280;
+}
