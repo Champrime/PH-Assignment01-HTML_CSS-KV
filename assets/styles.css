@@ -271,7 +271,6 @@ header h1 {
   background-color: #F7F6F2;
   border-radius: 12px;
   margin: 120px;
-  ;
 }
 
 .cta h2 {
@@ -310,4 +309,51 @@ header h1 {
   display: block;
   font-size: 14px;
   color: #6b7280;
+}
+
+.footer {
+  background-color: #001a33;
+  color: white;
+  padding: 40px 100px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 60px 60px 0px;
+}
+
+.socialLinks h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 16px;
+}
+
+.socialIcons a {
+  width: 20px;
+  height: 20px;
+}
+
+.socialIcons a:hover {
+  width: 22px;
+  height: 22px;
+}
+
+.footerDivider {
+  border: none;
+  border-top: 1px solid #334155;
+  margin-bottom: 20px;
+}
+
+.footerCopyright {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 40px;
 }
