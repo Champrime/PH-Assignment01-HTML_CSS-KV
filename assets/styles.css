@@ -58,7 +58,7 @@ header #btn1:hover {
 }
 
 .header {
-  background-image: url('/assets/hero-bg.png');
+  background-image: url('./hero-bg.png');
   background-size: cover;
   background-position: center;
   height: 674px;
